@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Authority Stoler",
+    "terrainsCanBeBuiltOn": ["Hill"],
+    "turnsToBuild": 1,
+    "uniques": ["Provides [1] [Authority]"],
+    "civilopediaText": [
+      {"text": "建造以获取战略资源Authority用于组建超级单位"}
+      ]
+  }
+]

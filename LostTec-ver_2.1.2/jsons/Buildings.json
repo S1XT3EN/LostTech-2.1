@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Lost Tech",
+      "cost": 1,
+      "hurryCostModifier": 0,
+      "uniques": [
+        "Can only be built [in capital]",
+        "<if [Tech Basis] is constructed> Only available",
+        "Free Technology",
+        "Destroyed when the city is captured",
+        "Provides [256] [Authority]",
+        "[+1073741824 Food, +32767 Production, +32767 Science, +5000 Gold, +2000 Happiness, +10240 Culture, +10249 Faith] [in this city]"
+      ],
+      "maintenance": 0,
+      "civilopediaText": [
+        {"text": "When constructed, dismantle Tech Basis to gain substantial output."}
+      ]
+    },
+    {
+      "name": "Tech Basis",
+      "cost": 1,
+      "hurryCostModifier": 0,
+      "uniques": ["Can only be built [in capital]"],
+      "maintenance": 0
+    },
+    {
+      "name": "Authority Maker",
+      "cost": 1,
+      "hurryCostModifier": 0,
+      "uniques": [
+        "Can only be built [in capital]",
+        "<in cities with a [Lost Tech]> <in cities without a [Tech Basis]> Only available",
+        "Provides [256] [Authority]"
+      ]
+    },
+    {
+      "name": "Hyperspace Gateway",
+      "cost": 1,
+      "hurryCostModifier": 0,
+      "uniques": [
+        "Consumes [1] [Authority]",
+        "Military Units gifted from City-States start with [32767] XP",
+        "New [All] units start with [1073741824] Experience [in this city]",
+        "[100000]% Production when constructing [All] wonders [in this city]",
+        "[100000]% Production when constructing [All] buildings [in this city]",
+        "[100000]% Production when constructing [All] units [in this city]",
+        "Reveals the entire map",
+        "Enables embarkation for land units"
+      ]
+    },
+    {
+      "name": "Omnipotent Factory",
+      "cost": 1,
+      "hurryCostModifier": 0,
+      "uniques": [
+        "<in cities with a [Hyperspace Gateway]> Only available",
+        "[+1024 Food, +1024 Production, +8 Happiness] per [1] population [in this city]",
+        "[64] Unit Supply"
+      ]
+    }
+  ]
+  
